@@ -1,9 +1,11 @@
 import { MapEx } from "./components/MapEx";
+import SiteEx from "./components/SiteEx";
 
 const Ex03 = () => {
   return (
     <div>
-      <MapEx />
+      {/* <MapEx /> */}
+      <SiteEx />
     </div>
   );
 };
