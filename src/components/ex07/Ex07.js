@@ -11,8 +11,7 @@ const Ex07 = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sub01" element={<Sub01 />} />
-        <Route path="/sub02" element={<Sub02 />} />
+        <Route path="/sub/:id" element={<Sub01 />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </HashRouter>
